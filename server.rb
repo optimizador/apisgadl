@@ -59,7 +59,7 @@ namespace '/api/v1' do
     type="#{params['type']}"
     country_offer="#{params['country_offer']}"
     puerto="#{params['puerto']}"
-    routing="#{params['rounting']}"
+    routing="#{params['routing']}"
     ha="#{params['ha']}"
     resultado=[]
     nodos=1
