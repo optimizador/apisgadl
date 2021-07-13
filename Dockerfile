@@ -1,6 +1,6 @@
 # Dockerfile
-
-FROM ruby:2.7.1
+FROM ruby:3.0.2-slim-buster
+#FROM ruby:2.7.1
 
 WORKDIR /code
 COPY . /code
