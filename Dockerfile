@@ -4,6 +4,7 @@ FROM ruby:3.0.2-slim-buster
 
 WORKDIR /code
 COPY . /code
+RUN bundle update mustermann
 RUN bundle install
 
 EXPOSE 8080
