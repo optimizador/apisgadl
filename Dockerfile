@@ -6,7 +6,6 @@ RUN apk add curl wget bash
 # Install ruby and ruby-bundler
 RUN apk add ruby-dev libpq postgresql-dev ruby-io-console ruby-bundler
 RUN rm -rf /var/cache/apk/*
-ENV NODE_ENV=production
 WORKDIR /code
 COPY . /code
 RUN bundle install
