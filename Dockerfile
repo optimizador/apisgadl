@@ -1,5 +1,5 @@
 # Dockerfile
-FROM ruby:3.0.2-buster
+FROM ruby:2.7.1
 
 # Install ruby and ruby-bundler
 RUN rm -rf /var/cache/apk/*
