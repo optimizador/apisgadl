@@ -1,5 +1,5 @@
 # Dockerfile
-FROM alpine:latest
+FROM alpine:3.14.0
 
 RUN apk update && apk add --no-cache build-base
 RUN apk add curl wget bash
