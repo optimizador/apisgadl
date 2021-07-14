@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-gem 'rerun',   '0.13.0'
+#gem 'rerun',   '0.13.0'
 gem 'pg'
 gem 'sinatra-contrib'
+gem 'mustermann'
+gem 'ruby2_keywords'
 gem 'rest-client'
